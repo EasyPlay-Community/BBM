@@ -1,0 +1,26 @@
+type: Drill
+size: 3
+health: 3500
+tier: 12
+drillTime: 35
+rotateSpeed: 12
+drawRim: true
+updateEffect: pulverizeRed
+drillEffect: healWaveMend
+updateEffectChance: 0.03
+consumes: {
+		power: 15.0
+		liquid: {
+			liquid: cryofluid
+			amount: 0.3
+			optional: true
+			booster: true
+		}
+	}
+requirements: [
+		quantum-ingot/2
+		dark-steel/250
+		plut/30
+	]
+category: production
+research: super-drill

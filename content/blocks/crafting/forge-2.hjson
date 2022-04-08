@@ -1,0 +1,28 @@
+type: GenericSmelter
+health: 500
+itemCapacity: 40
+outputItem: super-tithorium/10
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+		power: 2.8
+		items: {
+			items: [
+				tithorium/3
+				thorium/20
+			]
+		}
+	}
+requirements: [
+		tithorium/30
+		titanium/120
+		silicon/75
+		dark-steel/100
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+research: forge-1

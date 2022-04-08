@@ -1,0 +1,11 @@
+{
+	"type": "Wall",
+	"health": 31000,
+	"size": 2,
+	"requirements": [
+		{ "item": "infinitium", "amount": 4 },
+		{ "item": "dark-matter", "amount": 8 }
+	],
+	"category": "defense"
+	"research": "inf-wall"
+}

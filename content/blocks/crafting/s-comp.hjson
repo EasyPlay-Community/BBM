@@ -1,0 +1,26 @@
+type: GenericSmelter
+health: 1200
+itemCapacity: 80
+outputItem: diamond/10
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 75
+updateEffect: smeltsmoke
+consumes: {
+		power: 10.0
+		items: {
+			items: [
+				coal/40
+			]
+		}
+	}
+requirements: [
+		nuclear-fuel/20
+		comp-titanium/60
+		dark-steel/140
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.3
+research: thor-comp

@@ -1,0 +1,12 @@
+{
+	"type": "SolarGenerator",
+	"size": 3,
+	"health": 5100,
+    "powerProduction": 1500,
+	"requirements": [
+		{"item": "infinitium", "amount": 4},
+		{"item": "dark-matter", "amount": 12}
+	],
+	"category": "power"
+	"research": "dm-reactor"
+}

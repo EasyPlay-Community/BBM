@@ -1,0 +1,27 @@
+type: GenericSmelter
+health: 3000
+itemCapacity: 25
+outputItem: divinium/9
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+		power: 200
+		items: {
+			items: [
+				dark-matter/1
+				diamond/20
+			]
+		}
+	}
+requirements: [
+		quantum-ingot/18
+		dark-steel/3000
+		dark-matter/2
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.05
+research: atomic-forge

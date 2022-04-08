@@ -1,0 +1,12 @@
+{
+	"type": "SolarGenerator",
+	"size": 3,
+	"health": 3200,
+    "powerProduction": 1000,
+	"requirements": [
+		{"item": "infinitium", "amount": 2},
+		{"item": "dark-matter", "amount": 5}
+	],
+	"category": "power"
+	"research": "q-solar"
+}

@@ -1,0 +1,33 @@
+type: GenericSmelter
+health: 1400
+liquidCapacity: 200
+itemCapacity: 60
+outputItem: quantum-ingot/4
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+		power: 4.0
+		items: {
+			items: [
+				super-tithorium/5
+			]
+		}
+		liquid: {
+			liquid: quantum-liquid
+			amount: 0.2
+		}
+	}
+requirements: [
+		tithorium/60
+		titanium/200
+		super-tithorium/18
+		dark-steel/600
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+research: forge-2

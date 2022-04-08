@@ -1,0 +1,37 @@
+type: UnitFactory
+size: 3
+consumes: {
+  power: 3
+}
+plans: [
+  {
+    unit: speedster
+    requirements: [
+		dark-steel/192
+		ruby/12
+		plut/6
+		quantum-ingot/2
+		surge-alloy/12
+    ] 
+    time: 600
+  }
+  {
+    unit: nucledon
+    requirements: [
+      enriched-uran/192
+      iron/12
+      plut/6
+      super-tithorium/2
+	  surge-alloy/34
+    ]
+	time: 900
+  }
+]
+requirements: [
+		dark-steel/770
+		ruby/50
+		plut/25
+		quantum-ingot/8
+]
+category: units
+research: air-factory

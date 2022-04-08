@@ -1,0 +1,10 @@
+type: Conveyor
+requirements: [
+  dark-steel/40
+  infinitium/1
+]
+category: distribution
+health: 8000
+speed: 1.00
+displayedSpeed: 130
+research: dm-conveyor

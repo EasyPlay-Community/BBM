@@ -1,0 +1,54 @@
+{
+	"type": "ItemTurret",
+	"size": 4,
+	"health": 1800,
+	"reloadTime": 240,
+	"range": 500,
+	"maxAmmo": 6,
+	"shots": 3,
+	"shootShake": 3,
+	"velocityInaccuracy": 0.2,
+	"inaccuracy": 26,
+	"shootSound" : "artillery",
+	"recoilAmount" : 6,
+	"targetAir" : true, 
+	"targetGround" : true,
+	
+	"ammoTypes": {
+		"blast-compound": {
+			"type" : "ArtilleryBulletType",
+			"damage": 250,
+			"height": 20,
+			"width" : 20,
+			"speed" : 5,
+			"fragBullets": 10,
+			"splashDamage": 200,
+			"splashDamageRadius": 75,
+			"incendAmount": 1,
+			"frontColor" : "ffaa5f",
+			"backColor" : "ffaa5f",
+			"hitEffect":"bigShockwave",
+			"fragBullet": {
+				"type" : "BombBulletType",
+				"damage": 75,
+				"height": 20,
+				"width" : 10,
+				"velocityInaccuracy": 0.2,
+				"splashDamage": 100,
+				"splashDamageRadius": 15,
+				"speed" : 4,
+				"incendAmount": 1,
+				"frontColor" : "ffaa5f",
+				"backColor" : "ffaa5f",
+				"hitEffect":"shockwave",
+				},
+			},
+		},	
+		
+	"requirements": [
+		{ "item": "dark-steel", "amount": 120 },
+		{ "item": "plastanium", "amount": 45 },
+		{ "item": "tithorium", "amount": 8 }
+	],
+	"category": "turret"
+}

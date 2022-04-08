@@ -1,0 +1,67 @@
+type: itemTurret
+range: 125
+recoil: 9
+reloadTime: 15
+size: 3
+shots: 3
+cooldown: 0.07
+velocityInaccuracy: 0.3
+restitution: 0.03 
+health: 1800
+inaccuracy: 12
+ammoEjectBack: 6
+ammoPerShot: 11
+liquidBoostIntensity: 2.1
+rotatespeed: 0.3
+targetAir: false
+targetGround: true
+ammoTypes: {
+  comp-titanium: {
+   	type: ShrapnelBulletType
+   	length: 200
+   	damage: 180
+   	width: 20
+   	serrationLenScl: 3
+   	serrationSpaceOffset: 40
+  	serrationFadeOffset: 0
+    serrations: 12
+    serrationWidth: 10
+    ammoMultiplier: 6
+    lifetime: 40
+    shootEffect: thoriumShoot
+    smokeEffect: sparkShoot
+	}
+    comp-thorium: {
+   	type: ShrapnelBulletType
+   	length: 100
+   	damage: 280
+   	width: 42
+   	serrationLenScl: 6
+   	serrationSpaceOffset: 40
+  	serrationFadeOffset: 0
+    serrations: 8
+    serrationWidth: 5
+    ammoMultiplier: 7
+    toColor: c2f9ff
+    fromColor: 9ee1e8
+    lifetime: 60
+    shootEffect: thoriumShoot
+    smokeEffect: sparkShoot
+  }
+}
+consumes: {
+power: 1
+ liquid: {
+  liquid: cryofluid
+  amount: 0.1
+  booster: false
+  optional: false
+  }
+}
+requirements: [
+  dark-steel/15
+  lead/65
+  thorium/80
+  silicon/55
+]
+ category: turret

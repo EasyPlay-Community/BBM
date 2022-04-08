@@ -1,0 +1,21 @@
+type: Drill
+size: 2
+health: 1000
+tier: 8
+drillTime: 110
+rotateSpeed: 9
+consumes: {
+		power: 8.0
+		liquid: {
+			liquid: cryofluid
+			amount: 0.06
+			optional: true
+			booster: true
+		}
+	}
+requirements: [
+		super-tithorium/30
+		dark-steel/100
+	]
+category: production
+research: steel-drill

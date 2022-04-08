@@ -1,0 +1,41 @@
+type: itemTurret
+requirements: [
+	comp-titanium/14
+	uran/12
+	thorium/25
+	] 
+ammoTypes: {
+  comp-titanium: {
+    type: PointBulletType
+    shootEffect: instShoot
+    hitEffect: instHit
+    smokeEffect: smokeCloud
+    trailEffect: instTrail
+    despawnEffect: instBomb
+    trailSpacing: 12
+    damage: 360
+    tileDamageMultiplier: 0.3
+    speed: 50
+    hitShake: 1
+    ammoMultiplier: 2
+  }
+}
+consumes: {
+  power: 4
+  liquid: {
+  liquid: cryofluid
+  amount: 0.1
+  booster: true
+  optional: true
+  }
+}
+reloadTime: 30
+shots: 1
+burstSpacing: 6
+inaccuracy: 1.0
+liquidBoostIntensity: 1.1
+range: 190
+size: 2
+health: 800
+research: lancer
+category: turret

@@ -1,0 +1,24 @@
+type: MassDriver
+health: 720
+knockback: 0
+rotateSpeed: 100.0
+hasPower: true
+minDistribute: 30
+reloadTime: 5
+range: 500
+itemCapacity: 60
+translation: 1
+shootEffect: none
+smokeEffect: none
+recieveEffect: none
+shake: 0
+consumes: {
+  power: 3.0
+}
+size: 1
+requirements: [
+  dark-steel/35
+  enriched-uran/12
+]
+category: distribution
+research: uran-conveyor

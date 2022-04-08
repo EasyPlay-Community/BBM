@@ -1,0 +1,28 @@
+type: ImpactReactor
+size: 6
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 10
+liquidCapacity: 3
+itemDuration: 500
+powerProduction: 250
+plasmas: 3
+consumes: {
+ power: 9
+ liquid: cryofluid/0.3
+  items: {
+   items: [
+    nuclear-fuel/1
+    ]
+  }
+}
+requirements: [
+  enriched-uran/40
+  dark-steel/300
+  graphite/800
+  metaglass/1000
+  silicon/500
+]
+category: power
+research: impact-reactor

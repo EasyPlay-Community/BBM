@@ -1,0 +1,27 @@
+type: GenericSmelter
+health: 6000
+itemCapacity: 5
+outputItem: infinitium/3
+size: 8
+hasPower: true
+hasItems: true
+craftTime: 360
+updateEffect: smeltsmoke
+consumes: {
+		power: 2000
+		items: {
+			items: [
+				dark-matter/3
+				divinium/2
+			]
+		}
+	}
+requirements: [
+		quantum-ingot/30
+		dark-steel/5000
+		divinium/5
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.05
+research: divine-recon

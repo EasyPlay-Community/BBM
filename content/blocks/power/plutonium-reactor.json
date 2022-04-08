@@ -1,0 +1,38 @@
+{
+  "type": "NuclearReactor",
+  "size": 4,
+  "itemCapacity": 15,
+  "consumesPower": false,
+  "outputsPower": true,
+  "update": true,
+  "solid": true,
+  "hasPower": true,
+  "explosionRadius": 125,
+  "health": 200,
+  "itemDuration": 360,
+  "lightColor": "250000",
+  "hotColor": "ff0000",
+  "heating": 0.1,
+  "explosionDamage": 9650,
+  "powerProduction": 333.333333333,
+  "coolantPower": 0.20,
+  "consumes": {
+    "items": { 
+      "items": [
+        { "item": "plut", "amount": 1 }
+      ]
+    },
+    "liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.5
+    }
+  },
+  "requirements": [
+		{ "item": "enriched-uran", "amount": 100 },
+		{ "item": "dark-steel", "amount": 600 },
+		{ "item": "graphite", "amount": 2135 },
+		{ "item": "plut", "amount": 87 }
+	],
+  "category": "power",
+  "research": "thorium-reactor"
+}

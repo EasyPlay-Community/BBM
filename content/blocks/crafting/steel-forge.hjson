@@ -1,0 +1,28 @@
+type: GenericSmelter
+health: 200
+itemCapacity: 10
+outputItem: dark-steel/5
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+		power: 1.8
+		items: {
+			items: [
+				titanium/3
+				graphite/2
+				iron/5
+			]
+		}
+	}
+requirements: [
+		titanium/40
+		iron/45
+		silicon/75
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.1
+research: kiln

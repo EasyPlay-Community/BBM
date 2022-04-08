@@ -1,0 +1,7 @@
+type: material
+hardness: 1
+cost: 15.0
+color: 00FF00
+radioactivity: 3.5
+explosiveness: 0.0
+flammability: 0.0

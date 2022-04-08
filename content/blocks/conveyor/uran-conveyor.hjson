@@ -1,0 +1,10 @@
+type: Conveyor
+requirements: [
+  dark-steel/2
+  uran/1
+]
+category: distribution
+health: 320
+speed: 0.16
+displayedSpeed: 21
+research: dark-conveyor

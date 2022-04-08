@@ -1,0 +1,26 @@
+type: GenericSmelter
+health: 200
+itemCapacity: 20
+outputItem: carbon/4
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+		power: 5.0
+		items: {
+			items: [
+				carbon-mass/2
+			]
+		}
+	}
+requirements: [
+		dark-steel/120
+		thorium/40
+		comp-titanium/25
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.08
+research: concentrator

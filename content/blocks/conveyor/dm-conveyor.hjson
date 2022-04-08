@@ -1,0 +1,11 @@
+type: Conveyor
+requirements: [
+  dark-steel/8
+  quantum-ingot/2
+  dark-matter/1
+]
+category: distribution
+health: 2500
+speed: 0.56
+displayedSpeed: 61
+research: q-conveyor

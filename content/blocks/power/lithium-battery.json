@@ -1,0 +1,13 @@
+{
+	"type": "battery",
+	"size": 3,
+	"health": 200,
+	"category": "power",
+	"requirements": [
+		{"item": "lithium", "amount": 100},
+		{"item": "dark-steel", "amount": 40}
+		{"item": "titanium", "amount": 60}
+	],
+	"consumes": { "powerBuffered": 500000 }
+	"research": "battery-large"
+}

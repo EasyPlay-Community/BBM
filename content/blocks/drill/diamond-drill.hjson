@@ -1,0 +1,26 @@
+type: Drill
+size: 3
+health: 300
+tier: 8
+drillTime: 112
+rotateSpeed: 4
+drawRim: true
+updateEffect: pulverizeRed
+drillEffect: healWaveMend
+updateEffectChance: 0.03
+consumes: {
+		power: 9.0
+		liquid: {
+			liquid: cryofluid
+			amount: 0.08
+			optional: true
+			booster: true
+		}
+	}
+requirements: [
+		diamond/25
+		dark-steel/100
+		uran/6
+	]
+category: production
+research: steel-drill

@@ -1,0 +1,25 @@
+type: Drill
+size: 4
+health: 280
+tier: 8
+drillTime: 100
+rotateSpeed: 3
+drawRim: true
+updateEffect: pulverizeRed
+updateEffectChance: 0.03
+consumes: {
+		power: 12.0
+		liquid: {
+			liquid: cryofluid
+			amount: 0.1
+			optional: true
+			booster: true
+		}
+	}
+requirements: [
+		carbon/40
+		dark-steel/150
+		titanium/120
+    ]
+category: production
+research: diamond-drill

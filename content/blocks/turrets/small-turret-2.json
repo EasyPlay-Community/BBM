@@ -1,0 +1,53 @@
+{
+	"type": "ItemTurret",
+	"size": 2,
+	"health": 840,
+	"reloadTime": 5,
+	"range": 75,
+	"xRand": 3,
+	"maxAmmo": 20,
+	"shots": 1,
+	"shootSound" : "shootSnap",
+	"inaccuracy": 20,
+	"shootcone": 10,
+	"rotatespeed": 32,
+	"recoilAmount" : 2,
+	"restitution" : 0.1,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	
+	"ammoTypes": {
+		"lead": {
+			"type" : "ShrapnelBulletType",
+			"damage": 5,
+			"length": 55,
+			"width" : 8,
+			"ammoMultiplier": 2,
+			"toColor" :"7575C8",
+			},
+		"silicon": {
+			"type" : "ShrapnelBulletType",
+			"damage": 35,
+			"length": 70,
+			"width" : 10,
+			"ammoMultiplier": 4,
+			"toColor" :"F8A3C7",
+			},
+		"comp-titanium": {
+			"type" : "ShrapnelBulletType", 
+			"damage": 60,
+			"length": 100,
+			"width" : 16,
+			"toColor" :"F2E878",
+			"ammoMultiplier": 8
+			},
+		},
+		
+	"requirements": [
+		{ "item": "titanium", "amount": 35 },
+		{ "item": "silicon", "amount": 45 },
+		{ "item": "lead", "amount": 80 },
+		{ "item": "copper", "amount": 120 }
+	],
+	"category": "turret"
+}

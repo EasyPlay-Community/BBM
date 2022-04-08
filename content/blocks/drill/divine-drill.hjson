@@ -1,0 +1,25 @@
+type: Drill
+size: 4
+health: 7500
+tier: 15
+drillTime: 20
+rotateSpeed: 14
+drawRim: true
+updateEffect: pulverizeRed
+updateEffectChance: 0.03
+consumes: {
+		power: 22.0
+		liquid: {
+			liquid: cryofluid
+			amount: 0.4
+			optional: true
+			booster: true
+		}
+	}
+requirements: [
+		divinium/2
+		quantum-ingot/10
+		dark-steel/800
+	]
+category: production
+research: q-drill

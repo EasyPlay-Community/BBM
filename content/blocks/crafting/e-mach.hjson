@@ -1,0 +1,26 @@
+type: GenericSmelter
+health: 70
+itemCapacity: 4
+outputItem: enriched-uran/4
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+		power: 12.0
+		items: {
+			items: [
+				uran/2
+			]
+		}
+	}
+requirements: [
+		comp-titanium/6
+		tithorium/12
+		uran/2
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.2
+research: incinerator

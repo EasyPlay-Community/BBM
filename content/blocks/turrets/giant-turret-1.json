@@ -1,0 +1,38 @@
+{
+	"type": "PowerTurret",
+	"size": 5,
+	"health": 1500,
+	"reloadTime": 20,
+	"range": 380,
+	"shots": 1,
+	"shootSound" : "laser",
+	"restitution" : 0.1,
+	"shootEffect": "lightningShoot",
+	"inaccuracy": 5,
+	"powerUse": 15,
+	"targetAir" : false, 
+	"targetGround" : true, 
+	"recoilAmount" : 6,
+	"shootShake": 2,
+	"chargeTime" : 20,
+	"chargeEffects" : 15,
+	 
+	"chargeEffect" : "lancerLaserCharge",
+	"chargeBeginEffect" : "lancerLaserChargeBegin",
+
+	"shootType": {
+		"type": "LaserBulletType",
+		"damage": 150,
+		"length": 350,
+		"lifetime": 32,
+		"width" : 40,
+		"hitEffect": "hitLancer",
+	},
+	"requirements": [
+		{ "item": "super-tithorium", "amount": 25 },
+		{ "item": "enriched-uran", "amount": 12 },
+		{ "item": "plut", "amount": 15 },
+		{ "item": "dark-steel", "amount": 120 }
+	],
+	"category": "turret"
+}

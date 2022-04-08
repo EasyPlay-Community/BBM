@@ -1,0 +1,10 @@
+{
+	"type": "Wall",
+	"health": 8120,
+	"size": 2,
+	"requirements": [
+		{ "item": "super-tithorium", "amount": 24 }
+	],
+	"category": "defense"
+	"research": "super-tithorium-wall"
+}

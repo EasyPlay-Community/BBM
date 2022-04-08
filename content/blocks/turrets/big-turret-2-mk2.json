@@ -1,0 +1,52 @@
+{
+	"type": "ItemTurret",
+	"size": 4,
+	"health": 1900,
+	"reloadTime": 10,
+	"range": 350,
+	"maxAmmo": 20,
+	"inaccuracy": 0.1,
+	"ammoEjectBack": 5f,
+	"velocityInaccuracy": 0.5,
+	"shots": 5,
+	"shootSound" : "artillery",
+	"recoilAmount" : 2,
+	"targetAir" : false, 
+	"targetGround" : true,
+	
+	"ammoTypes": {
+		"super-tithorium": {
+			"type" : "ArtilleryBulletType",
+			"damage": 50,
+			"height": 20,
+			"width" : 20,
+			"speed" : 2,
+			"splashDamage": 35,
+			"splashDamageRadius": 25,
+			"homingPower": 0.5,
+			"homingRange": 50,
+			"backColor": "53565c",
+			},
+		"quantum-ingot": {
+			"type" : "ArtilleryBulletType",
+			"damage": 70,
+			"height": 20,
+			"width" : 20,
+			"speed" : 2,
+			"splashDamage": 25,
+			"splashDamageRadius": 25,
+			"incendAmount": 1,
+			"frontColor" : "ffaa5f",
+			"backColor" : "ffaa5f",
+			},
+		},	
+		
+	"requirements": [
+		{ "item": "diamond", "amount": 400 },
+		{ "item": "quantum-ingot", "amount": 5 },
+		{ "item": "dark-steel", "amount": 500 }
+		{ "item": "ruby", "amount": 120 },
+		{ "item": "super-tithorium", "amount": 80 }
+	],
+	"category": "turret"
+}

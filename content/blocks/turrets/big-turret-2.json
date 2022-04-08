@@ -1,0 +1,69 @@
+{
+	"type": "ItemTurret",
+	"size": 4,
+	"health": 2050,
+	"reloadTime": 48,
+	"range": 180,
+	"maxAmmo": 50,
+	"shots": 10,
+	"burstSpacing": 2,
+	"shootShake": 1,
+	"shootSound" : "shootBig",
+	"inaccuracy": 1,
+	"shootCone": 70,
+	"velocityInaccuracy": 0.1,
+	"rotatespeed": 10,
+	"recoilAmount" : 2,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	
+	"ammoTypes": {
+		"tithorium": {
+			"type" : "BasicBulletType",
+			"damage": 25,
+			"speed": 10.0,
+			"lifetime": 50,
+			"height": 20,
+			"width" : 9,
+			"ammoMultiplier": 2
+			},
+		"super-tithorium": {
+			"type" : "BasicBulletType",
+			"damage": 25,
+			"speed": 8.0,
+			"lifetime": 50,
+			"height": 20,
+			"width" : 6,
+			"homingPower": 0.2,
+			"ammoMultiplier": 4
+			},
+		"plut": {
+			"type" : "BasicBulletType",
+			"damage": 30,
+			"speed": 8.0,
+			"lifetime": 50,
+			"height": 24,
+			"width" : 12,
+			"pierce": true,
+			"ammoMultiplier": 4
+			},
+		"nuclear-fuel": {
+			"type" : "BasicBulletType",
+			"damage": 55,
+			"speed": 15.0,
+			"lifetime": 50,
+			"height": 22,
+			"width" : 8,
+			"ammoMultiplier": 4
+			},
+		},
+		
+	"requirements": [
+		{ "item": "diamond", "amount": 12 },
+		{ "item": "nuclear-fuel", "amount": 6 },
+		{ "item": "plut", "amount": 10 },
+		{ "item": "super-tithorium", "amount": 20 },
+		{ "item": "dark-steel", "amount": 30 }
+	],
+	"category": "turret"
+}

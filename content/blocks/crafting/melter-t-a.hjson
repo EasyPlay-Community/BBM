@@ -1,0 +1,29 @@
+type: GenericCrafter
+health: 285
+itemCapacity: 5
+liquidCapacity: 12
+outputLiquid: enriched-slag/4
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+		power: 2.5
+		items: {
+			items: [
+				scrap/4
+			]
+		}
+	}
+requirements: [
+		dark-steel/20
+		iron/40
+		comp-titanium/35
+		carbon/8
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.1
+research: melter

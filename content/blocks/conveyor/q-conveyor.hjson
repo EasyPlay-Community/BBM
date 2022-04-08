@@ -1,0 +1,11 @@
+type: Conveyor
+requirements: [
+  dark-steel/4
+  quantum-ingot/1
+  super-tithorium/2
+]
+category: distribution
+health: 1200
+speed: 0.33
+displayedSpeed: 45
+research: uran-conveyor

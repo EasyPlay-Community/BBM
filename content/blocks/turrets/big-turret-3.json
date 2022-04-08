@@ -1,0 +1,61 @@
+{
+	"type": "ItemTurret",
+	"size": 4,
+	"health": 2050,
+	"reloadTime": 0.1,
+	"xRand": 10,
+	"range": 350,
+	"velocityInaccuracy": 0.5,
+	"maxAmmo": 50,
+	"shots": 5,
+	"shootShake": 1,
+	"shootSound" : "shootSnap",
+	"inaccuracy": 10,
+	"shootCone": 70,
+	"rotatespeed": 10,
+	"recoilAmount" : 2,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	
+	"ammoTypes": {
+		"metaglass": {
+			"type" : "BasicBulletType",
+			"damage": 10,
+			"speed": 6.0,
+			"lifetime": 50,
+			"height": 6,
+			"width" : 6,
+			"ammoMultiplier": 4
+			},
+		"silicon": {
+			"type" : "BasicBulletType",
+			"damage": 10,
+			"speed": 6.0,
+			"lifetime": 50,
+			"height": 6,
+			"width" : 6,
+			"ammoMultiplier": 4,
+			"pierce": true,
+			},
+		"comp-titanium": {
+			"type" : "BasicBulletType",
+			"damage": 10,
+			"speed": 8.0,
+			"lifetime": 50,
+			"height": 15,
+			"width" : 10,
+			"homingPower": 0.05,
+			"homingRange": 250,
+			"ammoMultiplier": 10
+			},
+		},
+		
+	"requirements": [
+		{ "item": "tithorium", "amount": 25 },
+		{ "item": "silicon", "amount": 65 },
+		{ "item": "nuclear-fuel", "amount": 3 },
+		{ "item": "plut", "amount": 5 },
+		{ "item": "dark-steel", "amount": 25 }
+	],
+	"category": "turret"
+}

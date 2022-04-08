@@ -1,0 +1,27 @@
+type: GenericSmelter
+health: 500
+itemCapacity: 20
+outputItem: nuclear-fuel/7
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+		power: 8.0
+		items: {
+			items: [
+				comp-thorium/12
+				enriched-uran/3
+			]
+		}
+	}
+requirements: [
+		comp-titanium/32
+		enriched-uran/10
+		dark-steel/25
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.3
+research: e-mach

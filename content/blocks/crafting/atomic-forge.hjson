@@ -1,0 +1,27 @@
+type: GenericSmelter
+health: 4000
+itemCapacity: 6
+outputItem: dark-matter/3
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 200
+updateEffect: smeltsmoke
+consumes: {
+		power: 450
+		items: {
+			items: [
+				quantum-ingot/4
+			]
+		}
+	}
+requirements: [
+		quantum-ingot/12
+		dark-steel/1800
+		titanium/4000
+		ruby/400
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.05
+research: q-recon

@@ -1,0 +1,26 @@
+type: GenericSmelter
+health: 200
+itemCapacity: 4
+outputItem: uran/3
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+		power: 12.2
+		items: {
+			items: [
+				comp-thorium/2
+			]
+		}
+	}
+requirements: [
+		comp-titanium/10
+		comp-thorium/4
+		dark-steel/16
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.4
+research: thor-comp

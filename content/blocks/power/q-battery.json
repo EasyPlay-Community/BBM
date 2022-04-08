@@ -1,0 +1,13 @@
+{
+	"type": "battery",
+	"size": 3,
+	"health": 1200,
+	"category": "power",
+	"requirements": [
+		{"item": "quantum-ingot", "amount": 2},
+		{"item": "dark-steel", "amount": 1400}
+		{"item": "lithium", "amount": 700}
+	],
+	"consumes": { "powerBuffered": 20000000 }
+	"research": "battery-large"
+}

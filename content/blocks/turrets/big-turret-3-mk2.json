@@ -1,0 +1,44 @@
+{
+	"type": "ItemTurret",
+	"size": 4,
+	"health": 2800,
+	"reloadTime": 10,
+	"range": 225,
+	"maxAmmo": 20,
+	"shots": 3,
+	"alternate": true,
+	"spread": 8,
+	"shootShake": 2,
+	"inaccuracy": 1,
+	"shootSound" : "artillery",
+	"recoilAmount" : 2,
+	"targetAir" : true, 
+	"targetGround" : true,
+	
+	"ammoTypes": {
+		"silicon": {
+			"type" : "ShrapnelBulletType",
+			"damage": 150,
+			"length": 260,
+			"width" : 30,
+			"toColor" :"F8A3C7",
+			},
+		"comp-titanium": {
+			"type" : "ShrapnelBulletType",
+			"damage": 250,
+			"length": 280,
+			"width" : 40,
+			"toColor" :"F2E878",
+			"ammoMultiplier": 4
+			},
+		},	
+		
+	"requirements": [
+		{ "item": "super-tithorium", "amount": 25 },
+		{ "item": "dark-steel", "amount": 200 }
+		{ "item": "diamond", "amount": 12 },
+		{ "item": "nuclear-fuel", "amount": 20 },
+		{ "item": "plut", "amount": 30 }
+	],
+	"category": "turret"
+}

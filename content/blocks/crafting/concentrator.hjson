@@ -1,0 +1,30 @@
+type: GenericSmelter
+health: 140
+itemCapacity: 20
+outputItem: carbon-mass/5
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+		power: 5.0
+		liquid: {
+			liquid: oil
+			amount: 0.2
+		}
+		items: {
+			items: [
+				coal/10
+			]
+		}
+	}
+requirements: [
+		dark-steel/70
+		thorium/30
+		comp-titanium/20
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.08
+research: separator

@@ -1,0 +1,27 @@
+type: GenericSmelter
+health: 300
+liquidCapacity: 15
+itemCapacity: 60
+outputItem: iron/2
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 12
+updateEffect: smeltsmoke
+consumes: {
+		power: 4.0
+		liquid: {
+			liquid: enriched-slag
+			amount: 0.005
+		}
+	}
+requirements: [
+		titanium/120
+		carbon/50
+		dark-steel/100
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.2
+research: melter-t-a

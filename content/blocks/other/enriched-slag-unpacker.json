@@ -1,0 +1,29 @@
+{
+
+"type": "GenericCrafter", 
+"health": 70, 
+"size": 1, 
+   "requirements": 
+   [
+   {"item": "copper", "amount": 1000}, 
+   {"item": "titanium", "amount": 500}, 
+   {"item": "metaglass", "amount": 500}
+   ], 
+	 
+   "hasPower": true, 
+   "hasItems": true, 
+   "hasLiquids": true, 
+   "craftTime": 7, 
+   "consumes": 
+   {
+   "power": 1.5, 
+   "items": {"items": [{"item": "enriched-slag-capsule", "amount": 1}]}
+   }, 
+   "updateEffect": "smeltsmoke", 
+   "category": "liquid", 
+   "idleSoundVolume": 0.5, 
+   "liquidCapacity": 5, 
+   "itemCapacity": 5, 
+   "outputLiquid": {"liquid": "enriched-slag", "amount": 5}
+   
+}

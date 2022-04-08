@@ -1,0 +1,25 @@
+type: GenericSmelter
+health: 260
+itemCapacity: 15
+outputItem: comp-thorium/5
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+		power: 12.5
+		items: {
+			items: [
+				thorium/10
+			]
+		}
+	}
+requirements: [
+		comp-titanium/8
+		thorium/60
+	]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.28
+research: multi-press
