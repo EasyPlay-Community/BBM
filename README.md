@@ -39,7 +39,7 @@ Better-Blocks-Mod: Этот мод добавляет больше блоков,
 
 # Developers
 
-- [EasyPlaySu](https://github.com/EasyPlaySu) (Head Developer)
+- [EasyPlaySu](https://github.com/Master-Rus) (Head Developer)
 - [MemFaceGo](https://github.com/MemFaceGo) (First Developer)
 
 
